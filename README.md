@@ -6,9 +6,13 @@
 [![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
 
-> 
+> [Speedcurve LUX](https://speedcurve.com) integration for [NuxtJS](https://nuxtjs.org)
 
 [📖 **Release Notes**](./CHANGELOG.md)
+
+## Features
+- Zero-config, sensable defaults
+- 
 
 ## Setup
 
@@ -22,16 +26,19 @@ yarn add @nuxtjs/speedcurve # or npm install @nuxtjs/speedcurve
 
 ```js
 {
-  modules: [
-    // Simple usage
-    '@nuxtjs/speedcurve',
-
-    // With options
-    ['@nuxtjs/speedcurve', { /* module options */ }]
-  ]
+  modules: ['@nuxtjs/speedcurve'],
+  speedcurve: {
+    // id: 'YOUR_LUX_ID'
+    // debugMode: false,
+    // enabled: true,
+    // logFirstHit: true,
+    // sampleRate: 100,
+    // translateBool: true,
+    // autoStartOnNav: true
+  }
+  
 }
 ```
-
 ## Development
 
 1. Clone this repository

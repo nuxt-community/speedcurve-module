@@ -1,8 +1,8 @@
 {
-  "name": "@nuxtjs/speedcurve",
-  "version": "0.0.0",
+  "name": "@nuxtjs/speedcurve-lux",
+  "version": "1.0.0",
   "description": "",
-  "repository": "AutoCustoms/speedcurve-module",
+  "repository": "hecktarzuli/speedcurve-lux-module",
   "license": "MIT",
   "contributors": [
     {
@@ -14,7 +14,7 @@
   ],
   "main": "lib/module.js",
   "scripts": {
-    "dev": "nuxt example",
+    "dev": "nuxt example",    
     "lint": "eslint --ext .js,.vue .",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",
     "test": "yarn lint && jest"

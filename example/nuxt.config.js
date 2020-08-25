@@ -6,5 +6,19 @@ module.exports = {
   srcDir: __dirname,
   modules: [
     { handler: require('../') }
-  ]
+  ],
+  head: {
+    title: 'Speedcurve LUX Test 1'
+  },
+  target: 'static',
+  mode: 'universal',
+  lux: {
+    enabled: true,
+    debugMode: true
+  },
+  publicRuntimeConfig: {
+    lux: {
+      id: '578536473'
+    }
+  }
 }
