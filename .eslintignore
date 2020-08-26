@@ -7,3 +7,4 @@ example
 
 # Plugin
 lib/plugin.js
+lib/luxInit.js

@@ -18,13 +18,3 @@
     <nuxt />
   </div>
 </template>
-<script>
-export default {
-  created () {
-    console.log('created - layout')
-  },
-  mounted () {
-    console.log('mounted - layout')
-  }
-}
-</script>

@@ -10,7 +10,7 @@ module.exports = {
   head: {
     title: 'Speedcurve LUX Test 1'
   },
-  target: 'static',
+  target: 'server',
   mode: 'universal',
   lux: {
     enabled: true,
@@ -18,7 +18,7 @@ module.exports = {
   },
   publicRuntimeConfig: {
     lux: {
-      id: '578536473'
+      id: '578536473',
     }
   }
 }

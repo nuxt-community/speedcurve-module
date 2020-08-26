@@ -14,7 +14,10 @@
   ],
   "main": "lib/module.js",
   "scripts": {
-    "dev": "nuxt example",    
+    "dev": "nuxt example",
+    "build": "nuxt build example",
+    "generate": "nuxt generate example",
+    "start": "nuxt start example",
     "lint": "eslint --ext .js,.vue .",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",
     "test": "yarn lint && jest"

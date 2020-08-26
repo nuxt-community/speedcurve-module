@@ -1,6 +1,6 @@
 <template>
   <div>
-    Home Page (mounted)
+    Home Page
     <br>
     <button type="button" @click="test(true)">
       Push to Fetch (ignoreLUX: true)
@@ -14,6 +14,7 @@
 <script>
 
 export default {
+  
   mounted () {
     this.$lux.label(' My Label')
     this.$lux.pageLoading(false)
