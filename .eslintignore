@@ -6,5 +6,5 @@ coverage
 example
 
 # Plugin
-lib/plugin.js
+lib/templates/plugin.js
 lib/luxInit.js
