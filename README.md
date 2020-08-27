@@ -20,13 +20,13 @@
 
 ## Setup
 
-1. Add `speedcurve-module` dependency to your project
+1. Add `nuxt-speedcurve` dependency to your project
 
 ```bash
-yarn add speedcurve-module # or npm install speedcurve-module
+yarn add nuxt-speedcurve # or npm install nuxt-speedcurve
 ```
 
-2. Add `speedcurve-module` to the `modules` section of `nuxt.config.js`
+2. Add `nuxt-speedcurve` to the `modules` section of `nuxt.config.js`
 ```js
 {
   modules: [
@@ -41,8 +41,8 @@ yarn add speedcurve-module # or npm install speedcurve-module
 or add options to the `lux` property in your `nuxt.config.js`
 ```js
 {
-  modules: ['speedcurve-module'],
-  
+  modules: ['nuxt-speedcurve'],
+
   lux: {
     // id: 'YOUR_LUX_ID'
     // debugMode: false,
@@ -52,7 +52,6 @@ or add options to the `lux` property in your `nuxt.config.js`
     // translateBool: true,
     // autoStartOnNav: true
   }
-  
 }
 ```
 ## Development
