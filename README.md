@@ -11,23 +11,27 @@
 [📖 **Release Notes**](./CHANGELOG.md)
 
 ## Features
-- Zero-config, sensable defaults
-- 
+- Collect performance metrics from real users
+- See Javascript errors in your Speedcurve dashboard
+- Add user data to visits to cross reference cohorts and performance
+- Create custom performance markers for deep insights
+- Minimal configuration with sensible defaults
+- On-the-fly runtime config support
 
 ## Setup
 
-1. Add `@nuxtjs/speedcurve` dependency to your project
+1. Add `speedcurve-module` dependency to your project
 
 ```bash
-yarn add @nuxtjs/speedcurve # or npm install @nuxtjs/speedcurve
+yarn add speedcurve-module # or npm install speedcurve-module
 ```
 
-2. Add `@nuxtjs/speedcurve` to the `modules` section of `nuxt.config.js`
+2. Add `speedcurve-module` to the `modules` section of `nuxt.config.js`
 
 ```js
 {
-  modules: ['@nuxtjs/speedcurve'],
-  speedcurve: {
+  modules: ['speedcurve-module'],
+  lux: {
     // id: 'YOUR_LUX_ID'
     // debugMode: false,
     // enabled: true,

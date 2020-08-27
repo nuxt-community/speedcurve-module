@@ -14,9 +14,9 @@
 <script>
 
 export default {
-  
+
   mounted () {
-    this.$lux.label(' My Label')
+    this.$lux.label('My Label')
     this.$lux.pageLoading(false)
   },
   methods: {

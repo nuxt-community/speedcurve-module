@@ -5,12 +5,12 @@ module.exports = {
   buildDir: resolve(__dirname, '.nuxt'),
   srcDir: __dirname,
   modules: [
-    { handler: require('../') }
+    { handler: require('../../lib/module') }
   ],
   head: {
-    title: 'Speedcurve LUX Test 1'
+    title: 'Speedcurve LUX - Full Static'
   },
-  target: 'server',
+  target: 'static',
   mode: 'universal',
   lux: {
     enabled: true,
@@ -18,7 +18,7 @@ module.exports = {
   },
   publicRuntimeConfig: {
     lux: {
-      id: '578536473',
+      id: '578536473'
     }
   }
 }
