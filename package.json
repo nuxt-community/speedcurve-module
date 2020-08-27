@@ -1,8 +1,8 @@
 {
-  "name": "@nuxtjs/speedcurve-lux",
+  "name": "nuxt-speedcurve",
   "version": "1.0.0",
   "description": "",
-  "repository": "hecktarzuli/speedcurve-lux-module",
+  "repository": "hecktarzuli/nuxt-speedcurve",
   "license": "MIT",
   "contributors": [
     {

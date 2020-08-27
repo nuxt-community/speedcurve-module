@@ -1,4 +1,4 @@
-# @nuxtjs/speedcurve
+# nuxt-speedcurve
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -6,7 +6,7 @@
 [![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
 
-> [Speedcurve LUX](https://speedcurve.com) integration for [NuxtJS](https://nuxtjs.org)
+> [Speedcurve LUX](https://speedcurve.com) integration for [Nuxt](https://nuxtjs.org)
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
@@ -27,10 +27,22 @@ yarn add speedcurve-module # or npm install speedcurve-module
 ```
 
 2. Add `speedcurve-module` to the `modules` section of `nuxt.config.js`
+```js
+{
+  modules: [
+    // Simple usage
+    'nuxt-speedcurve',
 
+    // With options
+    ['nuxt-speedcurve', { /* module options */ }]
+  ]
+}
+```
+or add options to the `lux` property in your `nuxt.config.js`
 ```js
 {
   modules: ['speedcurve-module'],
+  
   lux: {
     // id: 'YOUR_LUX_ID'
     // debugMode: false,
