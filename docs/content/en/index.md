@@ -17,6 +17,10 @@ features:
 
 [SpeedCurve LUX](https://speedcurve.com) integration for [Nuxt](https://nuxtjs.org).
 
+## What is SpeedCurve LUX?
+
+LUX (which stands for Live User eXperience) gives you standard RUM (Real User Monitoring) metrics like page load time and start render. It also tracks metrics that give you a better sense of how fast your site feels to visitors such as number of critical blocking resources, images above the fold, and custom metrics.
+
 ## Features
 
 <list :items="features"></list>

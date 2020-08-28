@@ -17,7 +17,7 @@ module.exports = {
   },
   publicRuntimeConfig: {
     lux: {
-      id: '578536473'
+      id: process.env.LUX_ID
     }
   }
 }

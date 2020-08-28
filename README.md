@@ -8,7 +8,8 @@
 
 > [Speedcurve LUX](https://speedcurve.com) integration for [Nuxt](https://nuxtjs.org)
 
-[📖 **Release Notes**](./CHANGELOG.md)
+- [✨ **Release Notes**](./CHANGELOG.md)
+- [📖 **Documentation**](https://nuxt-speedcurve.netlify.app)
 
 ## Features
 - Collect performance metrics from real users

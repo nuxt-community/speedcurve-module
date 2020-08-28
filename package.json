@@ -14,7 +14,7 @@
   ],
   "main": "lib/module.js",
   "scripts": {
-    "dev": "nuxt examples/server-universal",
+    "dev": "nuxt examples/universal",
     "test-universal": "nuxt build examples/universal && nuxt start examples/universal",
     "test-full-static": "nuxt generate examples/full-static && nuxt start examples/full-static",
     "test-static": "nuxt generate examples/universal",
