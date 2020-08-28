@@ -67,17 +67,17 @@ or add options to the `lux` property in your `nuxt.config.js`
 Copyright (c) Josh Deltener <hecktarzuli@gmail.com>
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/@nuxtjs/speedcurve/latest.svg
-[npm-version-href]: https://npmjs.com/package/@nuxtjs/speedcurve
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-speedcurve/latest.svg
+[npm-version-href]: https://npmjs.com/package/nuxt-speedcurve
 
-[npm-downloads-src]: https://img.shields.io/npm/dt/@nuxtjs/speedcurve.svg
-[npm-downloads-href]: https://npmjs.com/package/@nuxtjs/speedcurve
+[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-speedcurve.svg
+[npm-downloads-href]: https://npmjs.com/package/nuxt-speedcurve
 
-[github-actions-ci-src]: https://github.com/AutoCustoms/speedcurve-module/workflows/ci/badge.svg
-[github-actions-ci-href]: https://github.com/AutoCustoms/speedcurve-module/actions?query=workflow%3Aci
+[github-actions-ci-src]: https://github.com/hecktarzuli/nuxt-speedcurve/workflows/ci/badge.svg
+[github-actions-ci-href]: https://github.com/hecktarzuli/nuxt-speedcurve/actions?query=workflow%3Aci
 
-[codecov-src]: https://img.shields.io/codecov/c/github/AutoCustoms/speedcurve-module.svg
-[codecov-href]: https://codecov.io/gh/AutoCustoms/speedcurve-module
+[codecov-src]: https://img.shields.io/codecov/c/github/hecktarzuli/nuxt-speedcurve.svg
+[codecov-href]: https://codecov.io/gh/hecktarzuli/nuxt-speedcurve
 
-[license-src]: https://img.shields.io/npm/l/@nuxtjs/speedcurve.svg
-[license-href]: https://npmjs.com/package/@nuxtjs/speedcurve
+[license-src]: https://img.shields.io/npm/l/nuxt-speedcurve.svg
+[license-href]: https://npmjs.com/package/nuxt-speedcurve
