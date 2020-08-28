@@ -4,7 +4,7 @@ describe('module', () => {
   let nuxt
 
   beforeAll(async () => {
-    ({ nuxt } = (await setup(loadConfig(__dirname, '../../example'))))
+    ({ nuxt } = (await setup(loadConfig(__dirname, '../../examples/full-static'))))
   }, 60000)
 
   afterAll(async () => {
@@ -13,6 +13,6 @@ describe('module', () => {
 
   test('render', async () => {
     const html = await get('/')
-    expect(html).toContain('Works!')
+    expect(html).toContain('Home Page')
   })
 })

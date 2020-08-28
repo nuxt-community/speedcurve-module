@@ -51,7 +51,8 @@ It's a shim for browsers that don't support `performance.mark`.
 
 <alert type="warning">
 
-If used, it must be called before `pageLoading(false)`.
+- Must be called before `pageLoading(false)`.
+- If you need to mark performance before Nuxt is ready, then use the browser's native [Performance API](https://developer.mozilla.org/en-US/docs/Web/API/Performance/mark) directly.
 
 </alert>
 
@@ -71,7 +72,8 @@ It's a shim for browsers that don't support `performance.measure`.
 
 <alert type="warning">
 
-If used, it must be called before `pageLoading(false)`.
+ - Must be called before `pageLoading(false)`.
+ - If you need to mark performance before Nuxt is ready, then use the browser's native [Performance API](https://developer.mozilla.org/en-US/docs/Web/API/Performance/measure) directly.
 
 </alert>
 
