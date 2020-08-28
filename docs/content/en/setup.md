@@ -39,7 +39,7 @@ category: Guide
   ```
 
 ## Configure
-Add a section called `lux` to your `nuxt.config.js` and set `id` to the Speedcurve LUX from your dashboard.
+Add a section called `lux` to your `nuxt.config.js` and set `id` to the Speedcurve LUX Id from your dashboard.
 
 ```js[nuxt.config.js]
 export default {
@@ -56,7 +56,7 @@ export default {
 See [options](/options) section for all available options.
 
 ## Runtime Configs
-Runtime configs are also supported.  Just create a `lux` section in your `nuxt.config.js` file:
+Runtime configs are also supported.  Just create a `lux` section in your `nuxt.config.js`:
 
 ```js[nuxt.config.js]
 export default {

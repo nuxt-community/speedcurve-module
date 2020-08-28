@@ -16,7 +16,7 @@ This module exposes a global plugin called `$lux`.  It's the central way you com
     - Type: `boolean`
     - Default: `true`
 
-Starts and stops the LUX page load timers. If `logFirstHit` is `true`, this is ignored since LUX will take of the first hit metrics.
+Starts and stops the LUX page load timers. If `logFirstHit` is `true`, this is ignored since LUX will take care of the first hit metrics.
 
 ### `label(name)`
 - `name`
@@ -35,7 +35,7 @@ Sets the label of the page in SpeedCurve.  By default the page's title is used. 
     - ** Required**
     - The value you want to assign the property.
 
-This adds custom data to the current user.  This is useful for segmenting performance data. 
+This adds custom data to the current user.  This is useful for segmenting performance metrics. 
 
 <alert type="warning">In order for this data to show up in your charts, you need to set up the `name` used in your SpeedCurve account. Learn more about [customer data](https://support.speedcurve.com/en/articles/1262334-lux-customer-data).</alert>
 

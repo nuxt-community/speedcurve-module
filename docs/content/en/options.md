@@ -27,7 +27,7 @@ lux: {
 - Type: **string**
 
 <alert>
-You can find your LUX ID by going to `Settings > Edit LUX Settings` in your SpeedCurve account.  Then scroll to the bottom and copy the numbers at the bottom of the LUX snippet.
+You can find your LUX Id by going to `Settings > Edit LUX Settings` in your SpeedCurve account.  Then scroll to the bottom and copy the numbers in the LUX snippet.
 </alert>
 
 <img src="/lux-id.png" width="688" height="148" loading="lazy"/>
@@ -48,26 +48,26 @@ Turns on the functionality of the module.  Useful for conditional usage or when 
 - Type: **boolean**
 - Default: `true`
 
-By default LUX will automatically log a visitor's first hit to your site.  Turn this to `false` when you have additional content to load and want to trigger the page load `stop` yourself.
+By default LUX will automatically log a visitor's first hit to your site.  Turn this to `false` when you have additional content to load and want to trigger the `pageLoading(false)` yourself.
 
 ### `sampleRate`
 - Type: **number**
 - Default: `100`
 
-Lowers your sample rate.  This is handy if your site gets a lot of traffic and you don't need performance metrics for every user.
-<alert type="warning">If the sample rate setup in your SpeedCurve account is not 100, this value is ignored.</alert>
+This sets your sample rate.  It's useful if your site gets a lot of traffic and you don't need performance metrics for every user.
+<alert type="warning">If the sample rate in your SpeedCurve account is not 100, this value is ignored.</alert>
 
 ### `translateBool`
 - Type: **boolean**
 - Default: `true`
 
-Automatically converts `true/false` to `Yes/No` when using `addData` to insert customer data into the LUX session.  This is recommended by SpeedCurve so your dashboard is more readable.
+This automatically converts `true/false` to `Yes/No` when using `addData` to insert customer data into the LUX session.  This is recommended by SpeedCurve so your dashboard is more readable.
 
 ### `autoStartOnNav`
 - Type: **boolean**
 - Default: `true`
 
-Automatically issues a `pageLoading(true)` before each route navigation after the first page load.  This allows you to only have to tell LUX when a page is done loading on your pages.
+This automatically issues a `pageLoading(true)` before each route navigation after the first page load.  That way, you only have to tell LUX when a page is done loading on your pages.
 
 <alert type="warning">
 
