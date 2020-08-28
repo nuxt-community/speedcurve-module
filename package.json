@@ -19,6 +19,7 @@
     "test-full-static": "nuxt generate examples/full-static && nuxt start examples/full-static",
     "test-static": "nuxt generate examples/universal",
     "test-spa": "nuxt generate examples/spa",
+    "docs": "nuxt docs",
     "lint": "eslint --ext .js,.vue .",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",
     "test": "yarn lint && jest"

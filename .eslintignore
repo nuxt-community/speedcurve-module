@@ -4,7 +4,6 @@ dist
 .nuxt
 coverage
 examples
-
-# Plugin
 lib/templates/plugin.js
 lib/luxInit.js
+docs/static/sw.js

@@ -55,7 +55,7 @@ By default LUX will automatically log a visitor's first hit to your site.  Turn 
 - Default: `100`
 
 Lowers your sample rate.  This is handy if your site gets a lot of traffic and you don't need performance metrics for every user.
-<alert type="warning">Note: If the sample rate setup in your SpeedCurve account is not 100, this value is ignored.</alert>
+<alert type="warning">If the sample rate setup in your SpeedCurve account is not 100, this value is ignored.</alert>
 
 ### `translateBool`
 - Type: **boolean**
