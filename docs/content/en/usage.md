@@ -44,10 +44,10 @@ Sometimes it's useful to mark timing events to help track down client-side page 
 ```js[products.vue]
 export default {
   async fetch() { 
-      this.$lux.mark("fetchStart")
-      const data = await fetch('https://some-api.io/products')
-      this.$lux.mark("fetchEnd")
-      this.$lux.measure("fetchTime", "fetchStart", "fetchEnd")
+      this.$lux.mark("fetchStarted")      
+      const data = await fetch('https://jsonplaceholder.typicode.com/posts')
+      this.$lux.mark("fetchEnded")
+      this.$lux.measure("fetchTime", "fetchStarted", "fetchEnded")
 
       this.$lux.pageLoading(false)
   }

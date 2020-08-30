@@ -6,9 +6,10 @@
 export default {
   async fetch () {
     if (!process.client) { return }
-    console.log('fetch start')
-    await fetch('https://jsonplaceholder.typicode.com/posts')
-    console.log('fetch end')
+    console.log('fetch ?!')
+  },
+  mounted(){
+    console.log('mounted')
     this.$lux.pageLoading(false)
   }
 }
