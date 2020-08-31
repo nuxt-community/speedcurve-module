@@ -18,7 +18,7 @@ features:
 [SpeedCurve LUX](https://speedcurve.com) integration for [Nuxt](https://nuxtjs.org).
 
 
-<alert type="warning">To use this module, a paid [SpeedCurve](https://speedcurve.com/) account is required. Register for a free 30 day trial to get started!</alert>
+<alert type="warning">To use this module, a paid [SpeedCurve LUX](https://speedcurve.com/) account is required. Register for a free 30 day trial to get started!</alert>
 
 
 ## What is SpeedCurve LUX?
