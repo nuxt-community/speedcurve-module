@@ -1,4 +1,4 @@
-# nuxt-speedcurve
+# @nuxtjs/speedcurve
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -9,7 +9,7 @@
 > [Speedcurve LUX](https://speedcurve.com) integration for [Nuxt](https://nuxtjs.org)
 
 - [✨ **Release Notes**](./CHANGELOG.md)
-- [📖 **Documentation**](https://nuxt-speedcurve.netlify.app)
+- [📖 **Documentation**](https://speedcurve.nuxtjs.org)
 
 ## Features
 - Collect performance metrics from real users
@@ -21,28 +21,28 @@
 
 ## Setup
 
-1. Add `nuxt-speedcurve` dependency to your project
+1. Add `@nuxtjs/speedcurve` dependency to your project
 
 ```bash
-yarn add nuxt-speedcurve # or npm install nuxt-speedcurve
+yarn add @nuxtjs/speedcurve # or npm install @nuxtjs/speedcurve
 ```
 
-2. Add `nuxt-speedcurve` to the `modules` section of `nuxt.config.js`
+2. Add `@nuxtjs/speedcurve` to the `modules` section of `nuxt.config.js`
 ```js
 {
   modules: [
     // Simple usage
-    'nuxt-speedcurve',
+    '@nuxtjs/speedcurve',
 
     // With options
-    ['nuxt-speedcurve', { /* module options */ }]
+    ['@nuxtjs/speedcurve', { /* module options */ }]
   ]
 }
 ```
 or add options to the `lux` property in your `nuxt.config.js`
 ```js
 {
-  modules: ['nuxt-speedcurve'],
+  modules: ['@nuxtjs/speedcurve'],
 
   lux: {
     // id: 'YOUR_LUX_ID'
@@ -68,17 +68,17 @@ or add options to the `lux` property in your `nuxt.config.js`
 Copyright (c) Josh Deltener <hecktarzuli@gmail.com>
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-speedcurve/latest.svg
-[npm-version-href]: https://npmjs.com/package/nuxt-speedcurve
+[npm-version-src]: https://img.shields.io/npm/v/@nuxtjs/speedcurve/latest.svg
+[npm-version-href]: https://npmjs.com/package/@nuxtjs/speedcurve
 
-[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-speedcurve.svg
-[npm-downloads-href]: https://npmjs.com/package/nuxt-speedcurve
+[npm-downloads-src]: https://img.shields.io/npm/dt/@nuxtjs/speedcurve.svg
+[npm-downloads-href]: https://npmjs.com/package/@nuxtjs/speedcurve
 
-[github-actions-ci-src]: https://github.com/hecktarzuli/nuxt-speedcurve/workflows/ci/badge.svg
-[github-actions-ci-href]: https://github.com/hecktarzuli/nuxt-speedcurve/actions?query=workflow%3Aci
+[github-actions-ci-src]: https://github.com/nuxt-community/speedcurve-module/workflows/ci/badge.svg
+[github-actions-ci-href]: https://github.com/nuxt-community/speedcurve-module/actions?query=workflow%3Aci
 
-[codecov-src]: https://img.shields.io/codecov/c/github/hecktarzuli/nuxt-speedcurve.svg
-[codecov-href]: https://codecov.io/gh/hecktarzuli/nuxt-speedcurve
+[codecov-src]: https://img.shields.io/codecov/c/github/nuxt-community/speedcurve-module.svg
+[codecov-href]: https://codecov.io/gh/nuxt-community/speedcurve-module
 
-[license-src]: https://img.shields.io/npm/l/nuxt-speedcurve.svg
-[license-href]: https://npmjs.com/package/nuxt-speedcurve
+[license-src]: https://img.shields.io/npm/l/@nuxtjs/speedcurve.svg
+[license-href]: https://npmjs.com/package/@nuxtjs/speedcurve
