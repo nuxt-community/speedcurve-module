@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/nuxt-community/speedcurve-module/compare/v1.1.0...v1.1.1) (2020-08-31)
+
+
+### Bug Fixes
+
+* let $lux exist when enabled: false ([8da988d](https://github.com/nuxt-community/speedcurve-module/commit/8da988df856e7c5c69a2ae555377796d2ca35a20))
+
 ## 1.1.0 (2020-08-31)
 
 
