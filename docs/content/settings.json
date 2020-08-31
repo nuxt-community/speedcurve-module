@@ -1,10 +1,10 @@
 {
   "title": "nuxt/speedcurve",
-  "url": "/no-idea/",
+  "url": "https://speedcurve.nuxtjs.org",
   "logo": {
     "light": "/logo-light.svg",
     "dark": "/logo-dark.svg"
   },
-  "github": "hecktarzuli/nuxt-speedcurve",
-  "twitter": "@JoshDeltener"
+  "github": "nuxt-community/speedcurve-module",
+  "twitter": "@nuxt_js"
 }

@@ -6,7 +6,7 @@ category: Guide
 ---
 ## Installation
 
-1. Add `nuxt-speedcurve` dependency to your project:
+1. Add `@nuxtjs/speedcurve` dependency to your project:
 
   <code-group>
     <code-block label="Yarn" active>
@@ -30,7 +30,7 @@ category: Guide
   ```js[nuxt.config.js]
   export default {
     modules: [
-      'nuxt-speedcurve'
+      '@nuxtjs/speedcurve'
     ]
   }
   ```
@@ -41,12 +41,12 @@ Add a section called `lux` to your `nuxt.config.js` and set `id` to the Speedcur
 ```js[nuxt.config.js]
 export default {
   modules: [
-    'nuxt-speedcurve'
+    '@nuxtjs/speedcurve'
   ],
   lux: {
     id: 'YOUR_LUX_ID',
     // more options
-  }  
+  }
 }
 ```
 

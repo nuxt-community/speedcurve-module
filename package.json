@@ -1,28 +1,28 @@
 {
-  "name": "nuxt-speedcurve",
+  "name": "@nuxtjs/speedcurve",
   "version": "1.0.0",
-  "description": "",
-  "repository": "hecktarzuli/nuxt-speedcurve",
+  "description": "Speedcurve LUX integration for Nuxt",
+  "repository": "nuxt-community/speedcurve-module",
   "license": "MIT",
   "contributors": [
     {
       "name": "Josh Deltener <hecktarzuli@gmail.com>"
     }
   ],
+  "main": "lib/module.js",
   "files": [
     "lib"
   ],
-  "main": "lib/module.js",
   "scripts": {
     "dev": "nuxt examples/universal",
-    "test-universal": "nuxt build examples/universal && nuxt start examples/universal",
-    "test-full-static": "nuxt generate examples/full-static && nuxt start examples/full-static",
-    "test-static": "nuxt generate examples/universal",
-    "test-spa": "nuxt generate examples/spa",
     "docs": "nuxt docs",
     "lint": "eslint --ext .js,.vue .",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",
-    "test": "yarn lint && jest"
+    "test": "yarn lint && jest",
+    "test-full-static": "nuxt generate examples/full-static && nuxt start examples/full-static",
+    "test-spa": "nuxt generate examples/spa",
+    "test-static": "nuxt generate examples/universal",
+    "test-universal": "nuxt build examples/universal && nuxt start examples/universal"
   },
   "dependencies": {},
   "devDependencies": {
@@ -30,9 +30,9 @@
     "@babel/preset-env": "latest",
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
+    "@nuxt/content-theme-docs": "^0.5.2",
     "@nuxtjs/eslint-config": "latest",
     "@nuxtjs/module-test-utils": "latest",
-    "@nuxt/content-theme-docs": "^0.5.2",
     "babel-eslint": "latest",
     "babel-jest": "latest",
     "eslint": "latest",
