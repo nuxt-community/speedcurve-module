@@ -4,9 +4,6 @@ description: ''
 position: 2
 category: Guide
 ---
-
-<alert>To use the module, you need a [SpeedCurve](https://speedcurve.com/) account first. Register for a free 30 day trial to get started.</alert>
-
 ## Installation
 
 1. Add `nuxt-speedcurve` dependency to your project:
