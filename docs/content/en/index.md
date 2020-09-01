@@ -29,4 +29,5 @@ LUX (which stands for Live User eXperience) gives you standard RUM (Real User Mo
 
 <list :items="features"></list>
 
-<alert type="warning">This module isn't currently compatible with `spa` mode or `ssr:false`</alert>
+<alert type="danger">Not compatible with `spa` mode or `ssr:false`.<br/> Nuxt 2.12.0+ is required. </alert>
+
