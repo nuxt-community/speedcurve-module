@@ -1,6 +1,6 @@
 {
   "name": "@nuxtjs/speedcurve",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Speedcurve LUX integration for Nuxt",
   "repository": "nuxt-community/speedcurve-module",
   "license": "MIT",

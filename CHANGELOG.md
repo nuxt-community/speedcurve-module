@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/nuxt-community/speedcurve-module/compare/v1.1.1...v1.1.2) (2020-09-01)
+
+
+### Bug Fixes
+
+* wait for title resolve, req nuxt 2.12+ ([e919e7b](https://github.com/nuxt-community/speedcurve-module/commit/e919e7bc8738787890caf0d3cf9dda9fa36b431e))
+
 ### [1.1.1](https://github.com/nuxt-community/speedcurve-module/compare/v1.1.0...v1.1.1) (2020-08-31)
 
 
