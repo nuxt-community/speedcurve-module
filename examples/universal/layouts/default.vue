@@ -11,10 +11,9 @@
       Fetch
     </nuxt-link>
     |
-    <nuxt-link to="/i-am-not-found">
-      404
-    </nuxt-link>
-
+    <nuxt-link to="/blog/1">1</nuxt-link> |
+    <nuxt-link to="/blog/2">2</nuxt-link> |
+    <nuxt-link to="/blog/3">3</nuxt-link>
     <nuxt />
   </div>
 </template>

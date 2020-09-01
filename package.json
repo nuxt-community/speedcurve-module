@@ -24,15 +24,17 @@
     "test-static": "nuxt generate examples/universal",
     "test-universal": "nuxt build examples/universal && nuxt start examples/universal"
   },
-  "dependencies": {},
+  "dependencies": {
+    "semver": "^7.3.2"
+  },
   "devDependencies": {
     "@babel/core": "latest",
     "@babel/preset-env": "latest",
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
+    "@nuxt/content-theme-docs": "^0.5.3",
     "@nuxtjs/eslint-config": "latest",
     "@nuxtjs/module-test-utils": "latest",
-    "@nuxt/content-theme-docs": "^0.5.3",
     "babel-eslint": "latest",
     "babel-jest": "latest",
     "eslint": "latest",
