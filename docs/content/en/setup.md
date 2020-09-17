@@ -12,14 +12,14 @@ category: Guide
     <code-block label="Yarn" active>
 
     ```bash
-    yarn add nuxt-module
+    yarn add @nuxtjs/speedcurve
     ```
 
     </code-block>
     <code-block label="NPM">
 
     ```bash
-    npm install nuxt-module
+    npm install @nuxtjs/speedcurve
     ```
 
     </code-block>
