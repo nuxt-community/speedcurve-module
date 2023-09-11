@@ -6,7 +6,7 @@
 [![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
 
-> [Speedcurve LUX](https://speedcurve.com) integration for [Nuxt](https://nuxtjs.org)
+> [Speedcurve LUX](https://speedcurve.com) integration for [Nuxt 2](https://nuxt.com)
 
 - [✨ **Release Notes**](./CHANGELOG.md)
 - [📖 **Documentation**](https://speedcurve.nuxtjs.org)
